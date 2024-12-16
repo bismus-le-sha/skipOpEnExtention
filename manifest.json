@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Skip",
+  "version": "1.0",
+  "description": "Automatically Play Series, Skip Intro, and Advance to the Next Episode.",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://jut.su/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+   "16": "icons/skip-16.png",
+    "48": "icons/skip-48.png",
+    "128": "icons/skip-128.png"
+  }
+}
