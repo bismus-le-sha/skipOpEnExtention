@@ -1,0 +1,28 @@
+{
+  "name": "skipopenextention",
+  "version": "1.0.0",
+  "description": "**Auto Button Clicker** — это расширение для браузера, которое автоматически выполняет следующие действия на сайте **[jut.su](https://jut.su)**:",
+  "main": "content.js",
+  "scripts": {
+    "lint": "npx eslint **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bismus-le-sha/skipOpEnExtention.git"
+  },
+  "author": "ALEXEY BISMUS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bismus-le-sha/skipOpEnExtention/issues"
+  },
+  "homepage": "https://github.com/bismus-le-sha/skipOpEnExtention#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2"
+  }
+}
